@@ -39,7 +39,7 @@ jobs:
       - name: maven maversion
         run: mvn  --version
       - name: python version
-        run: puthon --version
+        run: python --version
       - name: docker version
         run: docker -v
         
